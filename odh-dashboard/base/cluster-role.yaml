@@ -8,7 +8,7 @@ rules:
       - watch
       - list
     apiGroups:
-      - ''
+      - ""
       - config.openshift.io
     resources:
       - clusterversions
@@ -26,7 +26,7 @@ rules:
       - list
       - watch
     apiGroups:
-      - ''
+      - ""
     resources:
       - services
       - configmaps
@@ -59,7 +59,7 @@ rules:
       - watch
       - list
     apiGroups:
-      - ''
+      - ""
       - integreatly.org
     resources:
       - rhmis
@@ -71,3 +71,15 @@ rules:
       - user.openshift.io
     resources:
       - groups
+  - verbs:
+      - get
+      - list
+      - watch
+    apiGroups:
+      - ""
+    resources:
+      - pods
+      - serviceaccounts
+      - secrets
+      - services
+      - namespaces
