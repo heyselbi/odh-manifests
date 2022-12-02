@@ -10,6 +10,7 @@
       - --tls-key=/etc/tls/private/tls.key
       - --client-id=dashboard-oauth-client
       - --client-secret-file=/etc/oauth/client/secret
+      - --cookie-expire=23h0m0s
       - --scope=user:full
       - --cookie-secret-file=/etc/oauth/config/cookie_secret
       - --pass-access-token
