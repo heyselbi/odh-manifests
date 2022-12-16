@@ -16,7 +16,7 @@ spec:
   - annotations:
         opendatahub.io/notebook-software: '[{"name":"Python","version":"v3.8"}]'
         opendatahub.io/notebook-python-dependencies: '[{"name":"JupyterLab","version":"3.2"},{"name":"Notebook","version":"6.4"}]'
-        openshift.io/imported-from: quay.io/modh/odh-minimal-notebook-container
+        openshift.io/imported-from: quay.io/modh/cuda-notebooks
     from:
       kind: DockerImage
       name: quay.io/modh/cuda-notebooks@sha256:348fa993347f86d1e0913853fb726c584ae8b5181152f0430967d380d68d804f
