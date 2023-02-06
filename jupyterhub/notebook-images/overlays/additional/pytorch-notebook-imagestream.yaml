@@ -23,3 +23,14 @@ spec:
     name: "py3.8-cuda-11.4.2-2"
     referencePolicy:
       type: Local
+  - annotations:
+        opendatahub.io/notebook-software: '[{"name":"Python","version":"v3.9"},{"name":"PyTorch","version":"1.13"}]'
+        opendatahub.io/notebook-python-dependencies: '[{"name":"PyTorch","version":"1.13"},{"name":"Tensorboard","version":"2.11"},"name":"Boto3","version":"1.24"},{"name":"Kafka-Python","version":"2.0"},{"name":"Matplotlib","version":"3.6"},{"name":"Numpy","version":"1.24"},{"name":"Pandas","version":"1.5"},{"name":"Scikit-learn","version":"1.2"},{"name":"Scipy","version":"1.9"}]'
+        openshift.io/imported-from: quay.io/modh/cuda-notebooks
+    from:
+      kind: DockerImage
+      name: quay.io/opendatahub/notebooks@sha256:a7122b2fbba00672372996469af0e5c4725e9608d8019242ff84842f99736534
+    name: "py3.9-cuda-11.7.0"
+    referencePolicy:
+      type: Local
+

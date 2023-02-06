@@ -24,3 +24,14 @@ spec:
     name: "py3.8-v1"
     referencePolicy:
       type: Source
+  - annotations:
+      opendatahub.io/notebook-software: '[{"name":"Python","version":"v3.9"}]'
+      opendatahub.io/notebook-python-dependencies: '[{"name":"Boto3","version":"1.24"},{"name":"Kafka-Python","version":"2.0"},{"name":"Matplotlib","version":"3.6"},{"name":"Numpy","version":"1.24"},{"name":"Pandas","version":"1.5"},{"name":"Scikit-learn","version":"1.2"},{"name":"Scipy","version":"1.9"}]'
+      openshift.io/imported-from: quay.io/rh_ee_atheodor/notebooks
+    from:
+      kind: DockerImage
+      # if you change the image tag, change the "-N" on the tag name immediately below
+      name: quay.io/opendatahub/notebooks@sha256:ff2b3bcada32edcfea7694ba65e9c9673195dc1bea067a61708a850e2215dc51
+    name: "py3.9-v2"
+    referencePolicy:
+      type: Source
