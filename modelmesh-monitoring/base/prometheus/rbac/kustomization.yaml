@@ -4,3 +4,4 @@ resources:
 - clusterrole_rhods-namespace-read.yaml
 - clusterrolebinding_rhods-model-monitoring.yaml
 - clusterrole_prometheus-k8s.yaml
+- clusterrole_prometheus_token_access.yaml
