@@ -21,6 +21,6 @@ spec:
     from:
       kind: DockerImage
       name: quay.io/modh/odh-trustyai-notebook@sha256:f8be3f6622d4bca653568e9c8b43363a842808d4669a3cd397f0d3a4f9a4c165
-    name: "py3.9-v1"
+    name: "2023.1"
     referencePolicy:
       type: Local
