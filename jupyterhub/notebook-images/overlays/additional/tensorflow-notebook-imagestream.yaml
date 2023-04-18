@@ -22,7 +22,7 @@ spec:
     from:
       kind: DockerImage
       name: quay.io/modh/cuda-notebooks@sha256:0070bf826f759be89068133edf73ba73855263c9788624b4f94dd3acb14d23b7
-    name: "py3.9-v2-cuda-11.8.0"
+    name: "2023.1-cuda-11.8"
     referencePolicy:
       type: Local
   # N-1 Version of the image
@@ -33,6 +33,6 @@ spec:
     from:
       kind: DockerImage
       name: quay.io/modh/cuda-notebooks@sha256:2163ba74f602ec4b3049a88dcfa4fe0a8d0fff231090001947da66ef8e75ab9a
-    name: "py3.8-cuda-11.4.2-2"
+    name: "1.2-cuda-11.4"
     referencePolicy:
       type: Local

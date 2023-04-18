@@ -23,7 +23,7 @@ spec:
     from:
       kind: DockerImage
       name: quay.io/modh/odh-minimal-notebook-container@sha256:43c88006d3bf71513b5e265a9bcf09b315aaa2142b6175c0e618829927dbaac2
-    name: "py3.9-v2"
+    name: "2023.1"
     referencePolicy:
       type: Local
   # N-1 Version of the image
@@ -34,6 +34,6 @@ spec:
     from:
       kind: DockerImage
       name: quay.io/modh/odh-minimal-notebook-container@sha256:a5a7738b09a204804e084a45f96360b568b0b9d85709c0ce6742d440ff917183
-    name: "py3.8-v1"
+    name: "1.2"
     referencePolicy:
       type: Local

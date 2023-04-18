@@ -22,7 +22,7 @@ spec:
     from:
       kind: DockerImage
       name: quay.io/modh/odh-pytorch-notebook@sha256:9eb63a61da203178ff2579861a39efedd264447aa45a787d6b7bd9b08c13b1af
-    name: "py3.9-v2"
+    name: "2023.1"
     referencePolicy:
       type: Local
   # N-1 Version of the image
@@ -33,6 +33,6 @@ spec:
     from:
       kind: DockerImage
       name: quay.io/modh/cuda-notebooks@sha256:492c37fb4b71c07d929ac7963896e074871ded506230fe926cdac21eb1ab9db8
-    name: "py3.8-cuda-11.4.2-2"
+    name: "1.2"
     referencePolicy:
       type: Local
