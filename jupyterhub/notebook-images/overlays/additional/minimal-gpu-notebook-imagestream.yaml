@@ -13,7 +13,7 @@ spec:
   lookupPolicy:
     local: true
   tags:
-  # N Version of the image (2023a-20230322-9f24e3e)
+  # N Version of the image (2023a-20230510-e348fda)
   - annotations:
         opendatahub.io/notebook-software: '[{"name":"Python","version":"v3.9"}]'
         opendatahub.io/notebook-python-dependencies: '[{"name":"JupyterLab","version":"3.5"},{"name":"Notebook","version":"6.5"}]'
@@ -21,7 +21,7 @@ spec:
         opendatahub.io/workbench-image-recommended: 'true'
     from:
       kind: DockerImage
-      name: quay.io/modh/cuda-notebooks@sha256:a6080e64d9b70683d8f19334d85e5df7d574f260e2923568e1c5d955d2a8bdc5
+      name: quay.io/modh/cuda-notebooks@sha256:50e1ab299f12310b8187034648620ca8b03e0f82acc1abeb9e96df0af9ebc77c
     name: "2023.1-cuda-11.8"
     referencePolicy:
       type: Local
