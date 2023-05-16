@@ -13,7 +13,7 @@ spec:
   lookupPolicy:
     local: true
   tags:
-  # N Version of the image (2023a-20230510-e348fda)
+  # N Version of the image (2023a-20230516-0cf2501)
   - annotations:
       opendatahub.io/notebook-software: '[{"name":"Python","version":"v3.9"},{"name":"TensorFlow","version":"2.11"}]'
       opendatahub.io/notebook-python-dependencies: '[{"name":"TensorFlow","version":"2.11"},{"name":"Tensorboard","version":"2.11"},{"name":"Boto3","version":"1.26"},{"name":"Kafka-Python","version":"2.0"},{"name":"Kfp-tekton","version":"1.5"},{"name":"Matplotlib","version":"3.6"},{"name":"Numpy","version":"1.24"},{"name":"Pandas","version":"1.5"},{"name":"Scikit-learn","version":"1.2"},{"name":"Scipy","version":"1.10"}]'
@@ -21,7 +21,7 @@ spec:
       opendatahub.io/workbench-image-recommended: 'true'
     from:
       kind: DockerImage
-      name: quay.io/modh/cuda-notebooks@sha256:9591bbb89cea55d6717a76c072d3cea06743eaa7fed02ec20346cf581c2b2fd1
+      name: quay.io/modh/cuda-notebooks@sha256:7cd89e5e8612cfa246e8373b1edeeb5c0901bcd6db4421c94eaa40a1589dcd42
     name: "2023.1-cuda-11.8"
     referencePolicy:
       type: Local
